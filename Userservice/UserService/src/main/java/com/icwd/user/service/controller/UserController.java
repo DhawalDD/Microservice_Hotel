@@ -41,7 +41,7 @@ public class UserController {
 
      }
 
-     /// working with RestTemplate to call rating service
+     ///working with RestTemplate to call rating service
      // fetch rating of above user from rating service
      @GetMapping("getuser/{userid}")
      public ResponseEntity<User> getUser(@PathVariable String userid)
